@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.a{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color:green;
+    padding: 5px 20px 15px 20px;
+    border: 5px solid lightgreen; 
+    border-radius: 10px;
+}
+
+.b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: orange;
+    padding: 5px 20px 15px 20px;
+    border: 5px solid burlywood;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+
+input[type="submit"]{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color:green;
+    border: 5px solid lightgreen; 
+    width: 15%;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    color: black;
+    background-color: lightgreen;
+    border: 5px solid green;
+}

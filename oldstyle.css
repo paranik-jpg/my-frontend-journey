@@ -1,0 +1,208 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(myke-simon-atsUqIm3wxo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    backdrop-filter: blur(5px);
+}
+
+.title{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+h1{
+    font-size: 150px;
+    font-weight: 900;
+    font-family: "Salsa";
+    background-color: #24346b;
+    color: #85a9eb;
+}
+
+#start{
+    grid-column: 1;
+    background-color: #f09433;
+}
+
+#mid{
+    grid-column: 2 / 12;
+}
+
+#end{
+    grid-column: 20;
+    background-color: #f09433;
+}
+
+.elem1{
+    transform: translateX(20vw);
+}
+
+.elem2{
+    transform: translateX(-19.6vw);
+}
+
+.elem1,.elem2{
+    height: 100%;
+    transition: transform 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+nav{
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+footer,nav{
+    display: flex;
+    background-color: black;
+    font-size: larger;
+}
+
+footer a,nav a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+section{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+span{
+    border: 2px solid white;
+    background-image: url(myke-simon-atsUqIm3wxo-unsplash.jpg);
+    backdrop-filter: blur(1px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    color: yellow;
+    padding: 10px 55px;
+    border-radius: 20px;
+}
+
+#q{
+    height: 30vh;
+    border-radius: 100%;
+    border: 2px solid red;
+}
+
+.flex-item-right{
+    margin-left: auto;
+}
+
+.menu-btn:hover{
+    background-color: white;
+    color: black;
+}
+  
+.carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.carousel-cell video{
+    max-width: 100%;
+}
+
+.carousel-cell iframe{
+    max-width: 100%;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+ 
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#n{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    color: yellow;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+
+.sm-handle a{
+    background-color: white;
+    /*background-color: rgb(125 125 125 / 25%);*/
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.sm-handle a:hover{
+    background-color: rgb(30 30 30 / 25%);
+}
+
+.sm-handle a i{
+    margin: 5px;
+}
+
+.yt_handle{
+    color: #CD201F;
+    font-weight: 900;
+}
+
+.fb_handle{
+    color: #1877F2;
+    font-weight: 900;
+    /*background: white;*/
+}
+
+.ig_handle{
+    font-weight: 900;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+video{
+    height: 800px;
+    width: 1200px;
+    margin: 0%;
+    padding: 0%;
+}
+
+@media screen and (max-width:480px) {
+    footer,nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .flex-item-right{
+        margin-left: 0;
+    }
+}

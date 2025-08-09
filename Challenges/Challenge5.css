@@ -1,0 +1,36 @@
+body{
+    color: white;
+    font-size: xx-large;
+}
+
+.flex-containerA,.flex-containerB,.flex-containerC,.flex-containera,.flex-containerb,.flex-containerc{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item1,.flex-item2{
+    border-radius: 5px;
+    margin: 6px;    
+}
+
+.flex-item1{
+    background-color: blue;
+    width: 100%;
+}
+
+.flex-item2{
+    background-color: aqua;
+    width: 100%;
+}
+
+.flex-containerA>.flex-item1{
+    height: 195px;
+}
+
+.flex-containera>.flex-item2,.flex-containerb>.flex-item2,.flex-containerc>.flex-item2{
+    height: 40px;
+}
+
+.flex-containerB>.flex-item1,.flex-containerC>.flex-item1{
+    height: 40px;
+}

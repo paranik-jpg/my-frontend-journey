@@ -1,0 +1,55 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.qq{
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+    border: 10px solid rgba(0, 0, 0, 0.122);
+    border-radius: 5px;
+    background-color: aquamarine;
+    align-self: center;
+}
+
+h3{
+    font-size: x-large;
+}
+
+h1,h3{
+    padding: 10px;
+}
+
+img{
+    background-color: aqua;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: fantasy;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+a{
+    margin-left: 32%;
+}
+
+input{
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input:hover{
+    cursor: pointer;
+}

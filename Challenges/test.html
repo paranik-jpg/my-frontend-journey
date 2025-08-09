@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-gap: 10px;
+      overflow: hidden; /* Hide the content that overflows the grid */
+    }
+
+    .grid-item {
+      width: 100px;
+      height: 100px;
+      background-color: #3498db;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0; /* Initially hide the element */
+      transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    .grid-container:hover .grid-item {
+      opacity: 1; /* Show the element on hover */
+      transform: translateX(50px); /* Slide in to the right on hover */
+    }
+  </style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+</div>
+
+</body>
+</html>

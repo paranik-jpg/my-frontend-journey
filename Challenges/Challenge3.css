@@ -1,0 +1,41 @@
+#a,#b,#c,#d{
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid blue;
+}
+
+img{
+    border-radius: 5px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+#a>img{
+    float: left;
+    clear: left;
+    height: 170px;
+    }
+
+#b>img{
+    float: right;
+    clear: right;
+    height: 160px;
+    }
+
+#c>img{
+    float: left;
+    clear: left;
+    height: 200px;
+    }
+
+#d>img{
+    float: right;
+    clear: right;
+    height: 170px;
+    }
+
+body{
+    background-color: coral;
+}

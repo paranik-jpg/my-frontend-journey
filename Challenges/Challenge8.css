@@ -1,0 +1,64 @@
+body{
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+.mega{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 8px;
+    grid-auto-rows: 97.5vh;
+}
+
+.lambA{
+    background-color: aqua;
+    border-radius: 5px; 
+}
+
+.lambB{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 8px;
+}
+
+.lambb{
+    background-color: aqua;
+    border-radius: 5px; 
+}
+
+.lambC{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 8px;
+}
+
+.lambc{
+    background-color: aqua;
+    border-radius: 5px; 
+}
+
+.lambD{
+    display: grid;
+    grid-template-rows: repeat(8,1fr);
+    row-gap: 8px;
+}
+
+.lambd{
+    background-color: aqua;
+    border-radius: 5px; 
+}
+
+.lambE{
+    display: grid;
+    grid-template-rows: repeat(16,1fr);
+    row-gap: 8px;
+}
+
+.lambe{
+    background-color: aqua;
+    border-radius: 5px; 
+}
+
+
+
